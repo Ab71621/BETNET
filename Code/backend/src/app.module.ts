@@ -9,9 +9,10 @@ import { CommentModule } from './comment/comment.module';
 import { PackageModule } from './package/package.module';
 import { PaymentModule } from './payment/payment.module';
 import { AuthModule } from './auth/auth.module';
+import { ImgModule } from './img/img.module';
 
 @Module({
-  imports: [AdminModule, CustomerModule, WalletModule, PostModule, CommentModule, PackageModule, PaymentModule, AuthModule],
+  imports: [AdminModule, CustomerModule, WalletModule, PostModule, CommentModule, PackageModule, PaymentModule, AuthModule, ImgModule],
   controllers: [AppController],
   providers: [AppService],
 })
